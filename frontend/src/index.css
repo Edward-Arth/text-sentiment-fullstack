@@ -1,0 +1,73 @@
+.meat-container {
+  display:flex;
+  margin-top:5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-container {
+  width:100%;
+}
+
+.form-title {
+  font-size: 250%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-and-sentiment-container {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  width:50%;
+  padding-left: 10%;
+}
+
+.text-container {
+  display:flex;
+  flex-direction: column;
+  width:50%;
+  padding-right: 20%;
+  padding-left:5%;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.text-head {
+  font-size: 250%;
+  display:flex;
+  align-items: center;
+}
+
+.sentiment-container {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 175%;
+}
+
+.try-again-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .text-container {
+    padding-right: 5%;
+  }
+  .form-and-sentiment-container {
+    padding-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .text-container {
+    padding-right: 0%;
+  }
+  .meat-container {
+    margin:0;
+  }
+}
